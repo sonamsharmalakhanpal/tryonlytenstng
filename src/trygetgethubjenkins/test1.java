@@ -14,7 +14,7 @@ public class test1 {
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40L, TimeUnit.SECONDS);
 		driver.navigate().to("https://gmail.com/");
 		driver.findElement(By.id("Email")).sendKeys("sonam.sharma2407@gmail.com");
 		driver.findElement(By.id("next")).click();
